@@ -1,14 +1,14 @@
-# Angular2-Busy
+# ng-busy
 
 [![npm version](https://img.shields.io/npm/v/angular2-busy.svg?style=flat-square)](https://www.npmjs.com/package/angular2-busy) [![Build Status](https://img.shields.io/travis/devyumao/angular2-busy/master.svg?style=flat-square)](https://travis-ci.org/devyumao/angular2-busy)
 
-**Angular 2 Busy** can show busy/loading indicators on any promise, or on any Observable's subscription.
+**ng-busy** can show busy/loading indicators on any promise, or on any Observable's subscription.
 
 ![demo](https://raw.githubusercontent.com/devyumao/devyumao.github.io/master/angular2-busy/img/demo.gif)
 
 Rewritten from [angular-busy](https://github.com/cgross/angular-busy), and add some new features in terms of Angular 2.
 
-### Built with Angular 2.0.0
+### Built with Angular 2.4.0
 
 ## Demo
 
@@ -17,13 +17,13 @@ Rewritten from [angular-busy](https://github.com/cgross/angular-busy), and add s
 ## Installation
 
 ```shell
-npm install --save angular2-busy
+npm install --save ng-busy
 ```
 
 ## Link CSS
 
 ```html
-<link rel="stylesheet" href="/node_modules/angular2-busy/build/style/busy.css">
+<link rel="stylesheet" href="/node_modules/ng-busy/build/style/busy.css">
 ```
 
 ## Getting Started
@@ -32,7 +32,7 @@ Import the `BusyModule` in your root application module:
 
 ```typescript
 import {NgModule} from '@angular/core';
-import {BusyModule} from 'angular2-busy';
+import {BusyModule} from 'ng-busy';
 
 @NgModule({
 	imports: [
@@ -174,7 +174,7 @@ You may need this in your `systemjs.config.js`:
         // ...
         'ts-metadata-helper': 'npm:ts-metadata-helper',
         'angular2-dynamic-component': 'npm:angular2-dynamic-component',
-        'angular2-busy': 'npm:angular2-busy'
+        'ng-busy': 'npm:ng-busy'
     },
     packages: {
         // ...
@@ -184,7 +184,7 @@ You may need this in your `systemjs.config.js`:
         'angular2-dynamic-component': {
             defaultExtension: 'js'
         },
-        'angular2-busy': {
+        'ng-busy': {
             main: './index.js',
             defaultExtension: 'js'
         }
@@ -200,6 +200,8 @@ You may need this in your `systemjs.config.js`:
 - Unit & E2E test
 
 ## Credits
+
+adapted from https://github.com/devyumao  and updated to work with Angular-Cli builds and to have metadata for the package.
 
 Rewritten from [cgross](https://github.com/cgross)'s [angular-busy](https://github.com/cgross/angular-busy).
 
