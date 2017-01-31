@@ -1,18 +1,28 @@
 # ng-busy
 
-[![npm version](https://img.shields.io/npm/v/angular2-busy.svg?style=flat-square)](https://www.npmjs.com/package/angular2-busy) [![Build Status](https://img.shields.io/travis/devyumao/angular2-busy/master.svg?style=flat-square)](https://travis-ci.org/devyumao/angular2-busy)
+[![npm version](https://img.shields.io/npm/v/ng-busy.svg?style=flat-square)](https://www.npmjs.com/package/ng-busy) [![Build Status](https://img.shields.io/travis/figuerres/ng-busy/master.svg?style=flat-square)](https://travis-ci.org/figuerres/ng-busy)
 
 **ng-busy** can show busy/loading indicators on any promise, or on any Observable's subscription.
 
-![demo](https://raw.githubusercontent.com/devyumao/devyumao.github.io/master/angular2-busy/img/demo.gif)
 
 Rewritten from [angular-busy](https://github.com/cgross/angular-busy), and add some new features in terms of Angular 2.
 
 ### Built with Angular 2.4.0
 
+----------------------------
+
+WORK IN PROGRESS !!!
+at this time not packaged for npm install !!
+
+----------------------------
+
+
+
+
+
 ## Demo
 
-[devyumao.github.io/angular2-busy/demo/asset/](http://devyumao.github.io/angular2-busy/demo/asset/)
+[figuerres.github.io/ng-busy/demo/asset/](http://figuerres.github.io/ng-busy/demo/asset/)
 
 ## Installation
 
@@ -209,4 +219,4 @@ Inspired by [ajoslin](https://github.com/ajoslin)'s [angular-promise-tracker](ht
 
 ## LICENSE
 
-This project is licensed under the MIT license. See the [LICENSE](https://github.com/devyumao/angular2-busy/blob/master/LICENSE) file for more info.
+This project is licensed under the MIT license. See the [LICENSE](https://github.com/figuerres/ng-busy/blob/master/LICENSE) file for more info.
